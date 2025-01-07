@@ -424,7 +424,6 @@ This API provides a set of endpoints for managing users, products, and orders. T
     "name": string,
     "price": number
   },
-  ...
 ]
 ```
 
@@ -501,7 +500,6 @@ This API provides a set of endpoints for managing users, products, and orders. T
       "id": integer,
       "quantity": number
     },
-    ...
   ]
 }
 ```
@@ -531,7 +529,6 @@ This API provides a set of endpoints for managing users, products, and orders. T
       "id": integer,
       "quantity": number
     },
-    ...
   ]
 }
 ```
@@ -551,7 +548,6 @@ This API provides a set of endpoints for managing users, products, and orders. T
       "id": integer,
       "quantity": number
     },
-    ...
   ]
 }
 ```
