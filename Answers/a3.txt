@@ -1,42 +1,63 @@
-**Bug Report**
+**Bug Report Form**
 
-**Title:** Error with Data Validation for User Input
+**Project Name:** [Insert Project Name]
 
-**Version:** 1.0.2
+**Bug ID:** [Insert Bug ID (if assigned)]
 
-**Operating System:** Windows 10.
+**Reporter Information:**
 
-**Browser:** Google Chrome.
+* Name: [Your Name]
+* Email: [Your Email]
+* Location: [Your Location]
 
-**Steps to Reproduce:
+**Bug Description:**
 
-1. Open the application and navigate to the login page.
-2. Enter an invalid email address in the required field.
-3. Click the "Submit" button.
+The bug I'm reporting is related to [briefly describe the issue]. The exact steps to reproduce the bug are as follows:
 
-**Expected Result:** The application should display an error message indicating that the email address is invalid.
+1. [Step 1 description]
+2. [Step 2 description]
+3. [Step 3 description]
+4. [Any additional steps]
 
-**Actual Result:** The application displays a generic error message without providing any specific details about the issue with the email address.
+**Expected Behavior:** [Describe what the expected behavior should be]
 
-**Screenshots:**
-
-[Insert screenshots of the login page and the error message]
-
-**Error Message:**
-The application's error message does not provide any useful information about what went wrong. This makes it difficult for users to troubleshoot and fix the issue themselves.
-
-**Reproducibility:**
-
-This issue is reproducible every time I enter an invalid email address in the login page.
+**Actual Behavior:** [Describe what actually happens when the bug occurs]
 
 **Environment:**
-- Operating System: Windows 10
-- Browser: Google Chrome
-- Application Version: 1.0.2
 
-**Additional Information:**
-No other issues are present when entering a valid email address or navigating through the application.
+* Operating System: [Insert OS version]
+* Browser/Tool Version: [Insert browser or tool version]
+* Platform (Windows, Linux, etc.): [Insert platform]
 
-**Resolution Needed:**
+**Steps to Reproduce (in detail):**
 
-Provide more detailed error messages and improve data validation to prevent similar issues in the future.
+1. [Step 1 description]
+2. [Step 2 description]
+3. [Step 3 description]
+4. [Any additional steps]
+
+**Attached Files:**
+
+(If applicable) Please attach any relevant files, screenshots, or logs related to the bug.
+
+**Severity Level:** 
+
+* Low
+* Medium
+* High
+
+**Priority:** 
+
+* Low
+* Medium
+* High
+
+**Additional Comments:**
+
+Please feel free to add any additional information that might be helpful in resolving this issue.
+
+---
+
+**Submit**
+
+I have completed the bug report form and attached all required files (if applicable). Please review my submission and let me know if you need any further clarification or details.

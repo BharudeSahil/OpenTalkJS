@@ -2,12 +2,12 @@ import fs from 'fs';
 
 import  ollama  from 'ollama';
 
-let q;
+let que;
 let n=3;
-async function ask_llm(q,i) {
+async function ask_Question(que,i) {
     const response = await ollama.chat({
         model: "llama3.2:latest",
-        messages: [{ role: "user", content: q }],
+        messages: [{ role: "user", content: que }],
     });
     let a = response.message.content;
     fs.writeFile(`./Answers/a${i}.txt`,a,(err)=>{
@@ -18,8 +18,8 @@ async function ask_llm(q,i) {
 }
 
 for(let i=1;i<=n;i++){
-    q=`./Questions/q${i}.txt`;
-    ask_llm(fs.readFileSync(q, 'utf8',(err)=>{
+    que=`./Questions/q${i}.txt`;
+    ask_Question(fs.readFileSync(que, 'utf8',(err)=>{
         if(err){
             throw err;
         }
