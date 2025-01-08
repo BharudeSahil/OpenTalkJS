@@ -3,6 +3,7 @@ import fs from 'fs';
 import ollama from "ollama";
 
 const q = fs.readFileSync("q.txt", "utf8");
+    
 
 
 const response = await ollama.chat({
