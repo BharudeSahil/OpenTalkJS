@@ -1,0 +1,42 @@
+**Bug Report**
+
+**Title:** Error with Data Validation for User Input
+
+**Version:** 1.0.2
+
+**Operating System:** Windows 10.
+
+**Browser:** Google Chrome.
+
+**Steps to Reproduce:
+
+1. Open the application and navigate to the login page.
+2. Enter an invalid email address in the required field.
+3. Click the "Submit" button.
+
+**Expected Result:** The application should display an error message indicating that the email address is invalid.
+
+**Actual Result:** The application displays a generic error message without providing any specific details about the issue with the email address.
+
+**Screenshots:**
+
+[Insert screenshots of the login page and the error message]
+
+**Error Message:**
+The application's error message does not provide any useful information about what went wrong. This makes it difficult for users to troubleshoot and fix the issue themselves.
+
+**Reproducibility:**
+
+This issue is reproducible every time I enter an invalid email address in the login page.
+
+**Environment:**
+- Operating System: Windows 10
+- Browser: Google Chrome
+- Application Version: 1.0.2
+
+**Additional Information:**
+No other issues are present when entering a valid email address or navigating through the application.
+
+**Resolution Needed:**
+
+Provide more detailed error messages and improve data validation to prevent similar issues in the future.
